@@ -1,9 +1,9 @@
----
-title: "Basic Configuration Options"
-date: 2018-06-09T10:53:05+05:30
-draft: true
++++
+title = "Options"
+description = ""
+weight = 1
++++
 
----
 
 ## RagGrid Configuration
 
@@ -24,7 +24,7 @@ Please read through the aggrid documentation [(https://www.ag-grid.com/javascrip
 | paginationAutoPageSize | true   |
 
 Here are a few examples
-```python
+```r
 library(RagGrid)
 #Disable pagination
 aggrid(iris,options=list(pagination = FALSE))
@@ -41,7 +41,7 @@ Column definition options can be passed to ```aggrid()``` using the ```colOpts``
 
 Please go over the documentation [(https://www.ag-grid.com/javascript-grid-column-properties/)](https://www.ag-grid.com/javascript-grid-column-properties/)  to configure the column properties.
 
-Here's an example of how you can use it. And how ? Check hugo
+Here's an example of how you can use it.
 
 ```r
 library(RagGrid)
@@ -62,25 +62,3 @@ aggrid(iris,options=list(pagination = FALSE),colOpts =colOpts )
 colOpts = list(Sepal.Length=list(sort='asc'),Sepal.Width=list(sort='desc'))
 aggrid(iris,options=list(pagination = FALSE),colOpts =colOpts )
 ```
-
-## Enterprise mode
-
-Enterprise mode will be enabled by passing the ```licenseKey``` option. Enterprise provides a lot of features like row grouping, pivoting, status bar.
-
-```r
-aggrid(iris,licenseKey=<YOUR LICENSE KEY>)
-```
-
-### Enterpise Demo
-![](assets/enterprise-options.gif)
-![](/assets/enterprise-options.gif)
-
-
-### Default Grid options - Enterprise edition ( + Community Edition )
-
-| Property        | Value           |
-| ------------- |:-------------:|
-| enableStatusBar    | true |
-| alwaysShowStatusBar      | false      |
-| suppressDragLeaveHidesColumns | true      |
-| suppressMakeColumnVisibleAfterUnGroup | true      |
