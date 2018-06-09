@@ -5,3 +5,5 @@ theme = "kraiklyn"
 
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
+
+HUGO_VERSION = "0.41"
