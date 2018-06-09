@@ -41,7 +41,7 @@ Column definition options can be passed to ```aggrid()``` using the ```colOpts``
 
 Please go over the documentation [(https://www.ag-grid.com/javascript-grid-column-properties/)](https://www.ag-grid.com/javascript-grid-column-properties/)  to configure the column properties.
 
-Here's an example of how you can use it. And how ?
+Here's an example of how you can use it. And how ? Check hugo
 
 ```r
 library(RagGrid)
