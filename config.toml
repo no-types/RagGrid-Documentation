@@ -50,14 +50,3 @@ name = "<i class='fa fa-github'></i> <label>Github repo</label>"
 identifier = "ds"
 url = "https://github.com/no-types/RagGrid/"
 weight = 10
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
-url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
-weight = 11
-
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
-url = "/credits"
-weight = 30
