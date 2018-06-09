@@ -20,5 +20,4 @@ devtools::install_github('no-types/RagGrid')
 # then try RagGrid::aggrid(iris) as a hello world example
 ```
 
-
 {{%children style="h2" description="true"%}}
