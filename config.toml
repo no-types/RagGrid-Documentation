@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "RagGrid"
-theme = "kraiklyn"
+theme = "ananke"
 
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
