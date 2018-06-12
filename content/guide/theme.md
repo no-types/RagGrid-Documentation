@@ -1,7 +1,7 @@
 +++
 title = "Theme"
 description = ""
-weight = 5
+weight = 7
 +++
 
 
@@ -18,3 +18,13 @@ The other options available are
 4. ag-theme-dark
 5. ag-theme-fresh
 6. ag-theme-material
+
+Here is an quick example
+
+```r
+library(RagGrid)
+aggrid(iris,theme = "ag-theme-balham-dark")
+
+```
+
+![](/assets/theme.png)

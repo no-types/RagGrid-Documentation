@@ -14,7 +14,6 @@ aggrid(iris,licenseKey=<YOUR LICENSE KEY>)
 ```
 
 ### Enterpise Demo
-![](assets/enterprise-options.gif)
 ![](/assets/enterprise-options.gif)
 
 

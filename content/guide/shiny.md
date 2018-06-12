@@ -1,7 +1,7 @@
 +++
 title = "Integration with Shiny"
 description = ""
-weight = 4
+weight = 6
 +++
 
 ## RagGrid in Shiny
@@ -44,5 +44,4 @@ You can run this using
 shiny::runApp('inst/examples/aggrid-shiny')
 ```
 
-![](assets/shiny-example.png)
 ![](/assets/shiny-example.png)

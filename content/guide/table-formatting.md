@@ -1,7 +1,7 @@
 +++
 title = "Table Formatting"
 description = ""
-weight = 2
+weight = 3
 +++
 
 ## Format Columns
@@ -19,7 +19,6 @@ formattingOptions <- list(A='$0,0.00',C='$00.00',D ='0.00%')
 aggrid(m,formattingOptions = formattingOptions)
 
 ```
-![](assets/table-formatting.png)
 ![](/assets/table-formatting.png)
 
 Here's another example for number formatting.Let's do a million/thousand formatting on Column B. This can be achieved with a format string like '0a'
@@ -33,5 +32,4 @@ formattingOptions <- list(A='$0,0.00',B='0.0a',C='$00.00',D ='0.00%')
 aggrid(m,formattingOptions = formattingOptions)
 
 ```
-![](assets/table-formatting-example2.png)
 ![](/assets/table-formatting-example2.png)
