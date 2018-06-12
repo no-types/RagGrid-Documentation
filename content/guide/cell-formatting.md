@@ -12,6 +12,7 @@ Let's color the negative values of Column A in red color.
 
 ```r
 library(RagGrid)
+library("htmlwidgets")
 m = cbind(matrix(rnorm(60, 1e5, 1e6), 20), runif(20), rnorm(20, 100))
 colnames(m) = head(LETTERS, ncol(m))
  colorIfNegative = JS("function(params) {
@@ -20,11 +21,11 @@ colnames(m) = head(LETTERS, ncol(m))
                             } else {
                                 return null;
                             }
-                        }").
+                        }")
  colOpts <- list("A"=list("cellStyle"=colorIfNegative))
  aggrid(m,colOpts = colOpts)
 
 ```
 ![](/assets/cell-formatting.png)
 
-Check out [Aggrid Cell Styling](https://www.ag-grid.com/javascript-grid-cell-styling/) to know more about cell formatting.
+Check out [ag-grid Cell Styling](https://www.ag-grid.com/javascript-grid-cell-styling/) to know more about cell formatting.
