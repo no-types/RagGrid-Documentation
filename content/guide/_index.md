@@ -14,4 +14,3 @@ alwaysopen = true
 5. [Integration with Cross Talk]({{< ref "cross-talk-demo.md" >}})
 6. [Integration with Shiny]({{< ref "shiny.md" >}})
 7. [Theme]({{< ref "theme.md" >}})
-8. [Frequently asked questions]({{< ref "faq.md" >}})
