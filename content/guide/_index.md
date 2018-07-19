@@ -14,4 +14,5 @@ alwaysopen = true
 5. [Integration with Cross Talk]({{< ref "cross-talk-demo.md" >}})
 6. [Integration with Shiny]({{< ref "shiny.md" >}})
 7. [Sparkline chart inside Table]({{< ref "sparkline.md" >}})
-8. [Theme]({{< ref "theme.md" >}})
+8. [Exporting Data]({{< ref "export-csv-shiny.md" >}})
+9. [Theme]({{< ref "theme.md" >}})
