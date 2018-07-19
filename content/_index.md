@@ -5,6 +5,13 @@ description = "R ag-Grid"
 
 ## RagGrid
 
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/RagGrid?color=brightgreen&classes=inline)](https://cran.r-project.org/package=RagGrid)
+[![Build Status](https://travis-ci.com/no-types/RagGrid.svg?branch=master&classes=inline)](https://travis-ci.com/no-types/RagGrid)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg?classes=inline)](http://www.repostatus.org/#active)
+[![GitHub issues](https://img.shields.io/github/issues-raw/no-types/RagGrid.svg?classes=inline)](https://github.com/no-types/RagGrid/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/no-types/RagGrid.svg?classes=inline)](https://github.com/no-types/RagGrid/issues)
+
+
 R interface to ag-grid. https://www.ag-grid.com/
 
 This package provides a function ```aggrid()``` to display R data via the ag-grid library.
