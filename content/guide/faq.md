@@ -1,7 +1,7 @@
 +++
 title = "Frequently asked questions"
 description = ""
-weight = 8
+weight = 9
 +++
 
 

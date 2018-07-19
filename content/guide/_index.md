@@ -13,5 +13,6 @@ alwaysopen = true
 4. [Cell Formatting]({{< ref "cell-formatting.md" >}})
 5. [Integration with Cross Talk]({{< ref "cross-talk-demo.md" >}})
 6. [Integration with Shiny]({{< ref "shiny.md" >}})
-7. [Theme]({{< ref "theme.md" >}})
-8. [Frequently asked questions]({{< ref "faq.md" >}})
+7. [Sparkline chart inside Table]({{< ref "sparkline.md" >}})
+8. [Theme]({{< ref "theme.md" >}})
+9. [Frequently asked questions]({{< ref "faq.md" >}})
