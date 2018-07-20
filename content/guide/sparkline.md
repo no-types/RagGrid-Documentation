@@ -1,10 +1,10 @@
 +++
-title = "Sparkline chart inside Table"
+title = "Sparkline Charts"
 description = ""
 weight = 7
 +++
 
-## Sparkline in RagGrid
+## Sparkline Charts in RagGrid
 
 Here's an example of creating Sparkline chart in RagGrid
 

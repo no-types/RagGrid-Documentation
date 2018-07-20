@@ -13,6 +13,6 @@ alwaysopen = true
 4. [Cell Formatting]({{< ref "cell-formatting.md" >}})
 5. [Integration with Cross Talk]({{< ref "cross-talk-demo.md" >}})
 6. [Integration with Shiny]({{< ref "shiny.md" >}})
-7. [Sparkline chart inside Table]({{< ref "sparkline.md" >}})
-8. [Exporting Data]({{< ref "export-csv-shiny.md" >}})
+7. [Sparkline Charts]({{< ref "sparkline.md" >}})
+8. [Export to CSV]({{< ref "export-csv-shiny.md" >}})
 9. [Theme]({{< ref "theme.md" >}})

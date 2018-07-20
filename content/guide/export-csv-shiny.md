@@ -1,5 +1,5 @@
 +++
-title = "Exporting Data"
+title = " Export to CSV"
 description = ""
 weight = 8
 +++
@@ -7,7 +7,7 @@ weight = 8
 
 ## Export data as CSV in Shiny
 
-You can export the RagGrid data as csv in shiny app. Here is an example shiny application. </br>
+You can export the RagGrid data as csv in shiny app. Here is an sample shiny application. </br>
 Please check out [agGid export](https://www.ag-grid.com/javascript-grid-export/) for all the options that can be used.
 ```r
 
