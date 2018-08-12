@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "RagGrid Documentation - Version 0.1.1"
+title = "RagGrid Documentation - Version 0.2.0"
 theme = "docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
